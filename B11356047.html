@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-TW">
 <head>
-<title>B11356047</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寵物領養</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff9d00;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <img src="https://www.pet.gov.tw/img/UX/round_slider_1_desktop.png" 
+             alt="橫幅" 
+             style="width: 100%; height: auto;">
+        <h1>寵物領養資訊網</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">簡介</a></li>
+                <li><a href="#adopt">領養須知</a></li>
+                <li><a href="#links">相關連結</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>Hello</h1>
-<p>測試</p>
-<p>測試2</p>
-<p>最終版</p>
+    <main>
+        <section id="intro">
+            <h2>關於我們</h2>
+            <p>歡迎來到寵物領養平台！我們致力於為流浪動物找到溫暖的家，同時推廣以領養代替購買的觀念。這裡提供各種待領養的狗狗、貓咪等資訊，讓有愛心的你能輕鬆找到心儀的毛孩。</p>
+        </section>
+
+        <section id="adopt">
+            <h2>領養須知</h2>
+            <p>1. 領養前請評估自身的生活環境與照顧能力。<br>
+               2. 所有動物皆已施打疫苗並進行健康檢查。<br>
+               3. 領養需年滿 20 歲，並簽署領養同意書。<br>
+               4. 領養後請定期提供追蹤回報，確保動物生活狀況良好。</p>
+        </section>
+
+        <section id="links">
+            <h2>相關連結</h2>
+            <ul>
+                <li><a href="https://www.pet.gov.tw/" target="_blank">寵物登記管理資訊網</a></li>
+                <li><a href="https://wepet.tw/%E5%AF%B5%E7%89%A9%E9%A0%98%E9%A4%8A" target="_blank">Wepet.tw寵物資訊平台</a></li>
+                <li><a href="https://animal.moa.gov.tw/Frontend/AdoptSearch/AdoptInfo" target="_blank">動物保護資訊網</a></li>
+            </ul>   
+        </section>
+    </main>
+
+   <footer>
+    <center>
+        <h6>版權所有 © 資管一A</h6>
+    </center>
+</footer>
 
 </body>
 </html>
